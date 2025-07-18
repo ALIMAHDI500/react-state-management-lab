@@ -124,7 +124,7 @@ const [zombieFighters,setZombieFighters]=useState([
     <div>
     
         <h1>Zombie Fighter Team Builder</h1>
-        <div>Current Money: ${money} 
+        <div><h2> Current Money: ${money} </h2>
         </div>
         {team.length > 0 && (
           <div >
@@ -137,7 +137,7 @@ const [zombieFighters,setZombieFighters]=useState([
       <div>
         <h2>Your Team</h2>
         {team.length === 0 ? (
-          <p>Pick some team members!</p>
+          <h2>Pick some team members!</h2>
         ) : (
           <ul>
             {team.map(member => (
